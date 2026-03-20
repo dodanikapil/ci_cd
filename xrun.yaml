@@ -1,0 +1,32 @@
+---
+tool: "xrun"
+xlm_version: "25.03.v004"
+xlm_version: "25.03.v006"
+build_switches: ["-newperf","-plusperf"]
+lps_build: ["-lps_common_options"]
+str_check : >
+  Hello
+  Kapil
+
+str_check2 : |
+  Hello
+  Kapil2
+
+dic_check : 
+  Hello : World
+  name : 
+  - KD
+  - SD
+#---
+#tool: "vcs"
+#Xcelium_version: "25.03.v004"
+#Xcelium_version: "25.03.v006"
+#build_switches: ["-newperf","-plusperf"]
+#lps_build: ["-lps_common_options"]
+#str_check : >
+#  Hello
+#  Kapil
+#
+#str_check2 : |
+#  Hello
+#  Kapil2
