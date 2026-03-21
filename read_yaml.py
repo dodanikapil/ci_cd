@@ -14,7 +14,7 @@ def load_config(yaml_file):
     with open(yaml_file,"r") as yml:
         #config = yaml.safe_load(yml)
         #config = yaml.load_all(yml, Loader = yaml.SafeLoader)
-        config = yaml.load_all(yml,Loader=yaml.SafeLoader)
+        config = list(yaml.load_all(yml,Loader=yaml.SafeLoader)) ## converting to list as yaml.load_all returns a generator object
         return config
 
 print (__name__)
