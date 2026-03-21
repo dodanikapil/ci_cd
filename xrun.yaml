@@ -19,8 +19,8 @@ dic_check :
   - SD
 ---
 tool: "vcs"
-Xcelium_version: "25.03.v004"
-Xcelium_version: "25.03.v006"
+xlm_version: "25.03.v004"
+xlm_version: "25.03.v006"
 build_switches: ["-newperf","-plusperf"]
 lps_build: ["-lps_common_options"]
 str_check : >
